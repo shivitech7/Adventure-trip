@@ -1,38 +1,284 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-color: black;
+  overflow-x: hidden;
+  width: 100%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.icon{
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  /* border: 1px solid black; */
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: white;
+}
+
+h1{
+  font-weight: 400;
+  color: black;
+}
+
+.button{
+  width: 202px;
+  height: 65px;
+  background: linear-gradient(17.84deg, rgba(164, 110, 80, 0.99) 8.26%, rgba(215, 171, 114, 0.99) 91.74%), #C19372;
+  padding: 5px 3px 7px 3px;
+}
+
+.button-content{
+  width: 190px;
+  height: 53px;
+  border: 2px solid #DDDDDD;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-text{
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
   color: white;
+  font-family: 'Bebas Neue', cursive;
+   margin-right: 10px;
+
 }
 
-.App-link {
-  color: #61dafb;
+@media only screen and (max-width: 1080px) {
+  .n-wrapper{
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-bottom: 8px;
+    padding-top: 10px;
+}
+.logo-name{
+  font-size: 26px;
+}
+.left-box{
+  margin-bottom: 20px;
+  margin-right: 150px !important;
+}
+.top-section{
+  height: 90vh !important;
+  /* margin-bottom: 50px; */
+}
+.image1{
+  width: 417px;
+  height: 307;
+}
+.image2{
+  width: 180px;
+  height: 142px;
+}
+.absolute-image{
+  position: absolute;
+  right: 261px;
+}
+.quote-section{
+  padding-left: 520px;
+}
+.menu-image-absolute{
+  width: 302px !important;
+  height: 270px !important;
+  left: 100px;
+}
+.menu-container{
+  margin-left: 50px !important;
+}
+.image4{
+  width: 262px !important;
+  height: 230px !important;
+}
+.image5{
+  width: 364px;
+  height: 465px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.subscribe{
+  margin-right: 20px !important;
+}
+}
+
+@media only screen and (max-width: 700px) {
+
+.main-wrapper{
+    padding-top: 10px !important;
+    
+}
+.left-box{
+  margin-bottom: 20px;
+}
+.top-section{
+  margin-bottom: 250px !important;
+  margin-left: 0px !important;
+}
+.image1{
+  width: 247px !important;
+  height: 100 !important;
+}
+.image2{
+  width: 120px !important;
+  height: 122px !important;
+}
+.image3{
+  width: 220px !important;
+  height: 360px !important;
+}
+.quote-image{
+  width: 300px !important;
+  height: 440px !important;
+  left: 80px !important;
+  bottom: 40px;
+}
+.absolute-image{
+  position: absolute;
+  right: 150px !important;
+  /* left: 6px; */
+  width: 160px;
+  height: 162px;
+  /* width={280} height={242} */
+}
+.quote-section{
+  padding-left: 400px;
+}
+.menu-image-absolute{
+  width: 202px !important;
+  height: 170px !important;
+  left: 140px !important;
+}
+.image4{
+  width: 162px !important;
+  height: 130px !important;
+}
+.image5{
+  width: 264px !important;
+  height: 365px !important;
+}
+.menu-container{
+  margin-left: 80px !important;
+}
+
+/* book Table styling */
+.bookTable-tagLine{
+  font-size: 32px !important;
+  word-wrap: break-word !important;
+}
+
+.bookTable-form-wrapper{
+  padding-left: 39px !important;
+  width: 100%;
+}
+.form-input-section{
+  width: 433px !important;
+}
+
+.input{
+  width: 433px !important;
+}
+}
+
+@media only screen and (max-width: 600px) {
+  .main-wrapper{
+    padding-top: 10px !important;
+    
+}
+.n-right{
+  margin-left: 13px !important;
+  
+}
+.left-box{
+  margin-top: 30px !important;
+}
+.top-section{
+  margin-bottom: 280px !important;
+  margin-left: 0px !important;
+}
+
+ .image1{
+  width: 290px !important;
+  height: 350px !important;
+}
+.image2{
+  width: 100px !important;
+  height: 92px !important;
+}
+.absolute-image{
+  position: absolute;
+  right: 220px !important;
+  width: 140px;
+  height: 132px;
+}
+.image3{
+  width: 120px !important;
+  height: 260px !important;
+}
+.quote-image{
+  width: 200px !important;
+  height: 340px !important;
+  left: 15px !important;
+  bottom: 30px;
+}
+
+.quote-section{
+  padding-left: 190px;
+}
+.menu-image-absolute{
+  width: 202px !important;
+  height: 170px !important;
+  left: 140px !important;
+}
+.image4{
+  width: 162px !important;
+  height: 130px !important;
+}
+.image5{
+  width: 264px !important;
+  height: 365px !important;
+}
+.menu-container{
+  margin-left: 80px !important;
+} 
+
+.footer-name{
+  text-align: left !important;
+  margin-left: 200px;
+}
+
+/* book Table styling */
+.bookTable-tagLine{
+  font-size: 25px !important;
+  word-wrap: break-word !important;
+}
+
+.bookTable-form-wrapper{
+  padding-left: 29px !important;
+  padding-right: 29px !important;
+  width: 100%;
+}
+
+.input{
+  width: 333px !important;
+}
+
+.form-wrapper{
+  justify-content: center !important;
+}
+
+.form-input-section{
+  width: 333px !important;
+   width: 100%;
+   margin-right: 0px !important;
+}
+
+/* about page styling */
+.about-chef-title{
+  font-size: 30px !important;
+}
 }

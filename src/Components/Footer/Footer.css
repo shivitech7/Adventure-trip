@@ -1,0 +1,43 @@
+.footer-wrapper{
+    display: flex;
+    flex-direction: column;
+    background-color: #EFE9E6;
+}
+
+/* restaurant services css */
+/* .restaurant-services-section{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #222222;
+    padding-top: 76px;
+    padding-bottom: 83px;
+}
+
+.restaurant-service{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 33px;
+    margin-left: 33px;
+    max-width: 269px;
+}
+
+.service-type{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+    font-size: 22.01px;
+    letter-spacing: -1px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.service-description{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: -0.5px;
+    color: #888888;
+    text-align: center;
+} */
