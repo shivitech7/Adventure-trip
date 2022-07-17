@@ -32,7 +32,7 @@ const Footer = () => {
                         width:'100%',
                         color:'black'
                     }} className="footer-name">
-                    ©2023 by Urban Nomad Adventures. Proudly created with Wix.com</h1>
+                    ©2022 </h1>
                 </div>
             </div>
         </div>

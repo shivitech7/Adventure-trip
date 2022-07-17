@@ -183,7 +183,7 @@ const Discover = () => {
 
             {/* testimonials section */}
             <div style={{
-                background: 'linear-gradient(6.19deg, #EFE9E6 7.36%, #EFE9E6, #181818)',
+                backgroundColor:'#EFE9E6',
                 display: 'flex',
                 flexDirection: 'column',
                 alignItems: 'center',

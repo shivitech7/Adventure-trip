@@ -67,7 +67,8 @@
 }
 
 .quote-section{
-    background: linear-gradient(6.19deg, #EFE9E6 7.36%, #EFE9E6, #181818);
+    /* background: linear-gradient(6.19deg, #EFE9E6 7.36%, #EFE9E6, #181818); */
+    background-color: #EFE9E6;
     width: 100%;
     height: fit-content;
     display: flex;
