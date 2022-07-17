@@ -85,12 +85,25 @@ const Discover = () => {
                             the cites of the word in classical literature, discovered the undoubtable source.
                         </p>
                         <button style={{
-                            padding: '10px',
-                            backgroundColor: '#EFE9E6',
-                            border: '1px solid black',
-                            cursor:'pointer'
+                            width: 'fit-content',
+                            alignSelf: 'center',
+                            backgroundColor: 'black',
+                            border: 'none',
+                            cursor: 'pointer'
+                        }} onClick={() => {
+                            subscribe();
                         }}>
-                            <p>Read More</p>
+                            <div style={{
+                                padding: '15px 20px',
+
+                            }}>
+                                <p style={{
+                                    color: 'white'
+                                }}>
+                                    Read More
+                                </p>
+                                {/* <img style={{ marginBottom: '3px' }} width={20.01} height={10} src={ArrowWhite} /> */}
+                            </div>
                         </button>
                     </div>
                     {/* <div className="quote-image">
@@ -169,21 +182,31 @@ const Discover = () => {
 
                 </Slide>
                 <button style={{
-                    padding: '10px',
-                    backgroundColor: 'white',
-                    border: '1px solid black',
                     width: 'fit-content',
                     alignSelf: 'center',
-                    cursor:'pointer'
-
+                    backgroundColor: 'black',
+                    border: 'none',
+                    cursor: 'pointer'
+                }} onClick={() => {
+                    subscribe();
                 }}>
-                    <p>Learn More</p>
+                    <div style={{
+                        padding: '15px 20px',
+
+                    }}>
+                        <p style={{
+                            color: 'white'
+                        }}>
+                            Learn More
+                        </p>
+                        {/* <img style={{ marginBottom: '3px' }} width={20.01} height={10} src={ArrowWhite} /> */}
+                    </div>
                 </button>
             </div>
 
             {/* testimonials section */}
             <div style={{
-                backgroundColor:'#EFE9E6',
+                backgroundColor: '#ecf0f1',
                 display: 'flex',
                 flexDirection: 'column',
                 alignItems: 'center',
@@ -314,7 +337,7 @@ const Discover = () => {
                             alignSelf: 'center',
                             backgroundColor: 'black',
                             border: 'none',
-                            cursor:'pointer'
+                            cursor: 'pointer'
                         }} onClick={() => {
                             subscribe();
                         }}>

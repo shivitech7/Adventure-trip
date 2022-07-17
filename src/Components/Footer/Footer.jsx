@@ -30,9 +30,9 @@ const Footer = () => {
                         // letterSpacing: '-2px',
                         textAlign:'center',
                         width:'100%',
-                        color:'black'
+                        color:'white'
                     }} className="footer-name">
-                    ©2022 </h1>
+                    ©2022 Adventurous trip</h1>
                 </div>
             </div>
         </div>
